@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Forms</title>
+    </head>
+    <body>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="furahanimo@gmail.com">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <label for="file">Upload File</label>
+            <input type="file" id="file" name="file" accept="video*/">
+            <br>
+            <input type="checkbox" id="" value="I am a student">
+            <label for="student">I am a student</label>
+            <br>
+            <input type="radio" id="gender" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="gender" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br>
+            <label for="car">Select a Car Model:</label>
+            <select id="car" name="car" multiple >
+                <option value="Toyota">Toyota</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Alpha_Romeo">Alpha_Romeo</option>
+            </select>
+            <br>
+            <textarea id="bio" name="bio" rows="10" cols="25" maxlength="200">Type in your bio.
+            </textarea>
+            <br>
+            <input type="submit" value="Save Detail">
+        </form>
+    </body>
+</html>
